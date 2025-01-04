@@ -1,6 +1,7 @@
 from ft_filter import ft_filter as ft_filter
 import sys
 
+
 def main():
 
     """
@@ -9,9 +10,9 @@ def main():
     """
 
     try:
-    
+
         if len(sys.argv) != 3:
-            raise AssertionError("[USAGE]: ./filterstring.py <string S> <int N>")
+            raise AssertionError("[USAGE]: ./filterstring.py <String> <iNt>")
 
         S = sys.argv[1]
         if not isinstance(S, str):
@@ -19,18 +20,18 @@ def main():
 
         try:
             N = int(sys.argv[2])
-        except ValueError as e:
+        except ValueError:
             raise AssertionError("[ERROR]: <N> is not an int")
 
     except AssertionError as e:
         print(f"AssertionError: {e}")
 
     words = S.split()
-    
-    greaterThanN = lambda word: len(word) > N
-    filtered_word = list(ft_filter(greaterThanN, words))
+
+    filtered_word = list(ft_filter(lambda word: len(word) > N, words))
 
     print(filtered_word)
+
 
 if __name__ == "__main__":
     main()
