@@ -42,13 +42,14 @@ if image_array is not None:
 
     gray_image = zoomed_image_pil.convert('L')
 
-    gray_image = np.array(gray_image)
+    rotated_image = gray_image.rotate(90)
 
-    print(f"New shape after slicing: {gray_image.shape}")
-    gray_image_reshape = gray_image.reshape(-1, 1)
-    print(gray_image_reshape)
+    rotated_image_array = np.array(rotated_image)
 
-    plt.imshow(gray_image, cmap='gray')
+    print(f"The shape of rotated image is: {rotated_image_array.shape}")
+    print(rotated_image_array)
+
+    plt.imshow(rotated_image_array, cmap='gray')
     plt.axis('on')
     plt.show()
 else:
