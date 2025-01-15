@@ -13,14 +13,12 @@ def convert_to_int(value):
 
 try:
     dataset = load("population_total.csv")
-
     countries = dataset['country']
     years = dataset.columns[1:].astype(int)
     t1 = dataset[dataset['country']
                  == 'France'].iloc[0, 1:].apply(convert_to_int)
     t2 = dataset[dataset['country']
                  == 'Belgium'].iloc[0, 1:].apply(convert_to_int)
-
     plt.figure(figsize=(10, 9))
     plt.plot(years, t1, linestyle='-', color='g', label='France')
     plt.plot(years, t2, linestyle='-', color='b', label='Belgium')
