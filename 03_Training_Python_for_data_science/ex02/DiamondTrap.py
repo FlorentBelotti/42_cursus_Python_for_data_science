@@ -2,70 +2,48 @@ from S1E7 import Baratheon, Lannister
 
 
 class King(Baratheon, Lannister):
-
     """
-Representing the King character.
+    Representing the King character.
     """
 
-    def __init__(self, first_name, is_alive=True):
-
+    def __init__(self, first_name):
         """
         Constructor for King class.
 
-        Default constructor is from Baratheon class:
-        with family_name = "Baratheon"
-        with eyes = "brown"
-        with hairs = "dark"
+        :param first_name: The first name of the character.
         """
-
         super().__init__(first_name)
 
-    """
-Setters for :eyes: and :hairs: attributes.
-    """
-
     def set_eyes(self, eyes_color):
-
         """
-        Setter for eyes attribute.
+        Explicit setter method for eyes attribute.
 
-        :param eyes: The eyes color of the character.
+        :param eyes_color: The new eyes color of the character.
         """
-
         self.eyes = eyes_color
 
-    def set_hairs(self, hairs_color):
-
-        """
-        Setter for eyes attribute.
-
-        :param hairs_color: The hairs color of the character.
-        """
-
-        self.hairs = hairs_color
-
-    """
-Getters for :eyes: and :hairs: attributes.
-    """
-
     def get_eyes(self):
-
         """
-        Getter for eyes attribute.
+        Explicit getter method for eyes attribute.
 
         :return: The eyes color of the character.
         """
-
         return self.eyes
 
-    def get_hairs(self):
-
+    def set_hairs(self, hairs_color):
         """
-        Getter for hairs attribute.
+        Explicit setter method for hairs attribute.
+
+        :param hairs_color: The new hairs color of the character.
+        """
+        self.hairs = hairs_color
+
+    def get_hairs(self):
+        """
+        Explicit getter method for hairs attribute.
 
         :return: The hairs color of the character.
         """
-
         return self.hairs
 
     def __str__(self):
