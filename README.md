@@ -30,6 +30,20 @@ The Python piscine at École 42 is designed to deepen the understanding of the P
 ### Mandatory Part![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <section id="mandatory-part">
 
+<ul>
+    <li><a href="#00">Python - 0 - Starting</li>
+    <li><a href="#01">Python - 1 - Array</li>
+    <li><a href="#02">Python - 2 - DataTable</li>
+    <li><a href="#03">Python - 3 - OOP</li>
+    <li><a href="#04">Python - 4 - Dod</li>
+</ul>
+</nav>
+
+<div align="left">
+
+### Python - 0 - Starting![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<section id="00">
+
 #### Exercise 00: Hello World
 **Summary:** Create a script that prints "Hello, World!" to the console.
 **Key Concepts:**
