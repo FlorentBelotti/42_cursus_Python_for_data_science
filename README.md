@@ -117,6 +117,25 @@ The Python piscine at École 42 is designed to deepen the understanding of the P
 
 <div align="left">
 
+### Python - 1 - Array![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<section id="01">
+
+<div align="left">
+
+### Python - 1 - Array![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<section id="01">
+
+| Exercise | Summary | Key Concepts |
+|----------|---------|--------------|
+| **Exercise 00: Give my BMI** | Create functions to calculate BMI from height and weight lists, and apply a limit to the BMI values. | List manipulation, Error handling, Numpy or similar libraries, Function documentation |
+| **Exercise 01: 2D array** | Write a function to slice a 2D array and print its shape. | 2D array manipulation, Slicing, Error handling |
+| **Exercise 02: load my image** | Write a function to load an image, print its format, and display its pixel content in RGB. | Image loading, RGB format, Error handling |
+| **Exercise 03: Zoom on me** | Write a function to invert the colors of an image. | Image processing, Color inversion, Error handling |
+| **Exercise 04: Rotate me** | Write a function to apply a red filter to an image. | Image processing, Color filtering, Error handling |
+| **Exercise 05: Pimp my image** | Write a function to convert an image to grayscale. | Image processing, Grayscale conversion, Error handling |
+
+</section>
+
 ### Conclusion![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <section id="conclusion">
 
