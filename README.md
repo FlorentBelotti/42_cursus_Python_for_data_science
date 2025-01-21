@@ -75,6 +75,49 @@ The Python piscine at École 42 is designed to deepen the understanding of the P
 
 </section>
 
+<div align="left">
+
+### Python - 2 - DataTable![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<section id="02">
+
+| Exercise | Summary | Key Concepts |
+|----------|---------|--------------|
+| **Exercise 00: Load my Dataset** | Write a function to load a CSV file and return its content as a list of dictionaries. | CSV file handling, Data parsing, Pillow, Error handling |
+| **Exercise 01: Draw my compare** | Write a function to display the content of a CSV file in a formatted table. | Data display, String formatting, Pillow,  Error handling |
+| **Exercise 02: Compare my country** | Create a program to load and display population data of your campus country versus another country. | Data visualization, Pillow,  Matplotlib, Graph customization |
+| **Exercise 03: Draw my year** | Create a program to load and display the projection of life expectancy in relation to GDP for the year 1900. | Data visualization, Matplotlib, Pillow, Correlation analysis |
+
+</section>
+
+<div align="left">
+
+### Python - 3 - OOP![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<section id="03">
+
+| Exercise | Summary | Key Concepts |
+|----------|---------|--------------|
+| **Exercise 00: GOT S1E9** | Create an abstract Character class with attributes and methods. | Abstract classes, Inheritance, Method overriding |
+| **Exercise 01: GOT S1E7** | Create two families that inherit from the Character class and implement additional methods. | Inheritance, Class methods, `__str__` and `__repr__` methods |
+| **Exercise 02: Now it’s weird!** | Create a King class that inherits from two families and uses properties to change attributes. | Multiple inheritance, Properties, Method resolution order |
+| **Exercise 03: Calculate my vector** | Write a calculator class to perform vector operations with scalars. | Operator overloading, Vector arithmetic, Error handling |
+| **Exercise 04: Calculate my dot product** | Write a calculator class to perform dot product and vector addition/subtraction. | Decorators, Vector arithmetic, Dot product calculation |
+
+</section>
+
+<div align="left">
+
+### Python - 4 - Data Oriented Design![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<section id="04">
+
+| Exercise | Summary | Key Concepts |
+|----------|---------|--------------|
+| **Exercise 00: Calculate my statistics** | Write a function to calculate statistical measures (mean, median, quartiles, standard deviation, variance) from given arguments. | Statistical calculations, `*args` and `**kwargs`, Error handling |
+| **Exercise 01: Outer_inner** | Write functions to return the square and exponentiation of a number, and a function that returns an object performing these calculations. | Higher-order functions, Closures, Function objects |
+| **Exercise 02: my first decorating** | Write a decorator to limit the number of calls to a function. | Decorators, Function wrapping, Call limits |
+| **Exercise 03: data class** | Write a dataclass for a student with auto-generated login and ID. | Dataclasses, Random ID generation, Field initialization |
+
+</section>
+
 ### Conclusion![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <section id="conclusion">
 
