@@ -19,14 +19,13 @@ class Student:
         if 'login' in kwargs or 'id' in kwargs:
             raise TypeError(
                 f"TypeError: Student.__init__() got an unexpected keyword"
-                f"argument '{ 'login' if 'login' in kwargs else 'id' }'"
-            )
+                f"argument '{'login' if 'login' in kwargs else 'id'}'")
         if not name or not surname:
             raise ValueError("Both 'name' and 'surname' are required")
         if kwargs:
             raise TypeError(
                 f"TypeError: Student.__init__() got an unexpected keyword "
-                f"argument '{ list(kwargs.keys())[0] }'"
+                f"argument '{list(kwargs.keys())[0]}'"
             )
         self.name = name
         self.surname = surname

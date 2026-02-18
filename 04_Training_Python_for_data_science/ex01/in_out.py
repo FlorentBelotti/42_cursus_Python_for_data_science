@@ -1,4 +1,7 @@
-def square(x: int | float) -> int | float:
+from typing import Union
+
+
+def square(x: Union[int, float]) -> Union[int, float]:
 
     '''Return the square of a number'''
 
@@ -8,7 +11,7 @@ def square(x: int | float) -> int | float:
     return x * x
 
 
-def pow(x: int | float) -> int | float:
+def pow(x: Union[int, float]) -> Union[int, float]:
 
     '''Return the power of a number'''
 
@@ -18,7 +21,7 @@ def pow(x: int | float) -> int | float:
     return x ** x
 
 
-def outer(x: int | float, function) -> object:
+def outer(x: Union[int, float], function) -> object:
 
     '''
     Return a function that will apply the function passed as argument
