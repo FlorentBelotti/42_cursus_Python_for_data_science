@@ -1,19 +1,5 @@
 #!/usr/bin/env python3
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    test_all.py                                        :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: fbelotti <fbelotti@student.42perpignan.    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/01/06 by fbelotti               #+#    #+#                  #
-#    Updated: 2026/01/06 by fbelotti                ###   ########.fr          #
-#                                                                              #
-# **************************************************************************** #
 
-"""
-Script de test pour tous les exercices de la série 03 - Training Python for Data Science
-"""
 
 import os
 import sys
@@ -54,10 +40,10 @@ def run_exercise(ex_path, exercise_name):
                 print("Erreurs:", result.stderr)
 
             if result.returncode == 0:
-                print(f"✅ {exercise_name} - {tester_file} exécuté avec succès")
+                print(f"✅ {exercise_name} - OK")
                 return True
             else:
-                print(f"⚠️  {exercise_name} - {tester_file} terminé avec code {result.returncode}")
+                print(f"{exercise_name} - NOPE")
                 return False
 
         except subprocess.TimeoutExpired:
@@ -74,10 +60,6 @@ def run_exercise(ex_path, exercise_name):
 def main():
     """Fonction principale"""
     base_path = os.path.dirname(os.path.abspath(__file__))
-
-    print("╔" + "=" * 78 + "╗")
-    print("║" + " " * 15 + "TESTS - 03 Training Python for Data Science" + " " * 19 + "║")
-    print("╚" + "=" * 78 + "╝")
 
     exercises = ["ex00", "ex01", "ex02", "ex03", "ex04"]
 
@@ -99,7 +81,7 @@ def main():
 
     total = len(results)
     passed = sum(1 for v in results.values() if v)
-    print(f"\n📊 Score: {passed}/{total} exercices réussis")
+    print(f"\nScore: {passed}/{total} exercices réussis")
 
 
 if __name__ == "__main__":
